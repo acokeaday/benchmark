@@ -21,4 +21,4 @@ How to use:
 	git clone https://github.com/acokeaday/server-benchmark
 	cd server-benchmark
 	chmod +x benchmark.sh
-	./benchmark
+	./benchmark.sh
