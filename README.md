@@ -14,3 +14,11 @@ I got tired of running everything each time when doing benchmarking.
 This script simply allows the 3 tools to run with a single command storing the results in a single file. 
 
 Feel free to reach out if there are any suggestions.
+
+How to use:
+
+	sudo apt install git
+	git clone https://github.com/acokeaday/server-benchmark
+	cd server-benchmark
+	chmod +x benchmark.sh
+	./benchmark
