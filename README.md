@@ -17,5 +17,5 @@ Feel free to reach out if there are any suggestions.
 
 How to use: 
 
-	wget https://github.com/acokeaday/benchmark/blob/master/benchmark.sh
+	wget https://github.com/acokeaday/server-benchmark/blob/master/benchmark.sh
 	./benchmark
