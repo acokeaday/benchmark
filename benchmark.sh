@@ -6,7 +6,7 @@ echo $filename;
 #geekbench install and run
 
 touch $filename
-sudo dpkg --add-architecture i386 -y
+sudo dpkg --add-architecture i386 
 sudo apt-get update -y
 sudo apt-get install libc6:i386 libstdc++6:i386 -y
 wget http://cdn.geekbench.com/Geekbench-5.1.0-Linux.tar.gz $PWD
