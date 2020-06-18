@@ -28,15 +28,15 @@ sudo apt-get install fio -y
 echo "Running fio"
 
 echo "Running Random Read Write"
-fio --name=randomrw --ioengine=libaio --direct=1 --bs=4k --iodepth=64 --size=4G --rw=randrw --rwmixread=75 --gtod_reduce=1 >> $filename
+fio --name=randomrw --ioengine=libaio --direct=1 --bs=4k --iodepth=64 --size=40G --rw=randrw --rwmixread=75 --gtod_reduce=1 >> $filename
 echo "" >> $filename
 
 echo "Running Random Read"
-fio --name=randomread --ioengine=libaio --direct=1 --bs=4k --iodepth=64 --size=4G --rw=randread --gtod_reduce=1 >> $filename
+fio --name=randomread --ioengine=libaio --direct=1 --bs=4k --iodepth=64 --size=40G --rw=randread --gtod_reduce=1 >> $filename
 echo "" >> $filename
 
 echo "Running Random Write"
-fio --name=randomwrite --ioengine=libaio --direct=1 --bs=4k --iodepth=64 --size=4G --rw=randwrite --gtod_reduce=1 >> $filename
+fio --name=randomwrite --ioengine=libaio --direct=1 --bs=4k --iodepth=64 --size=40G --rw=randwrite --gtod_reduce=1 >> $filename
 echo "" >> $filename
 
 echo "cleaning up fio files"
